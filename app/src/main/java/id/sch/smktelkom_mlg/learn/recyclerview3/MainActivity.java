@@ -187,6 +187,7 @@ public class MainActivity extends AppCompatActivity implements HotelAdapter.IHot
                         mAdapter.notifyDataSetChanged();
                     }
                 })
+                
                 .show();
     }
 
@@ -200,7 +201,7 @@ public class MainActivity extends AppCompatActivity implements HotelAdapter.IHot
 
     }
 
-    
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
