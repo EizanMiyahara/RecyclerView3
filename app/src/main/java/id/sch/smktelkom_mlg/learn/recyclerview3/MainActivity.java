@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements HotelAdapter.IHot
     String mQuery;
 
     int itemPos;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
