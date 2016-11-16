@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements id.sch.smktelkom_
 
     int itemPos;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
